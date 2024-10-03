@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 export let cart = JSON.parse(localStorage.getItem('cart'));
 
@@ -65,3 +66,6 @@ export function updateDeliveryOption(productId, deliveryOptionId){
   matchingItem.deliveryOptionId = deliveryOptionId;
   saveToStorage;
 }
+=======
+const cart = [];
+>>>>>>> 98a95a596bc6939195d6f23c0b57328a614375f3
